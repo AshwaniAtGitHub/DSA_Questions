@@ -58,5 +58,13 @@ int main(){
 
 	cout<<"The size is "<<v.size()<<endl; //prints the size of the vector
 	cout<<"the capacity is "<<v.capacity()<<endl;// prints the Capacity of the vector
+	
+	// Clear Operation:
+	// During clear operation size of Vector becomes zero but capacity remains same.
+	cout<<"before clear size is "<<v.size()<<endl;
+	cout<<"before clear capacity is "<<v.capacity()<<endl;
+	v.clear();
+	cout<<"after clear size is "<<v.size()<<endl;
+	cout<<"after clear capacity is "<<v.capacity()<<endl;
 
 }
